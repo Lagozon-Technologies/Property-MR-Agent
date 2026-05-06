@@ -1,0 +1,220 @@
+{
+  "schema_owner": "PROPERTY_MR_DB",
+  "last_updated": "2026-05-06T14:29:10",
+  "schema_hash": "c564e5d5e9a04416add2c6ada9dae3f5",
+  "tables": {
+    "FINANCIAL_DATA": {
+      "columns": [
+        {
+          "name": "REGION",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "MAIN_PROJ",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "PROPERTY_NAME",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "MNTH",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "MNTH_NUM",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "FTM_BUD",
+          "data_type": "NUMBER",
+          "nullable": true
+        },
+        {
+          "name": "FTM_ACT",
+          "data_type": "NUMBER",
+          "nullable": true
+        },
+        {
+          "name": "YTD_BUD",
+          "data_type": "NUMBER",
+          "nullable": true
+        },
+        {
+          "name": "YTD_ACT",
+          "data_type": "NUMBER",
+          "nullable": true
+        },
+        {
+          "name": "QTD_BUD",
+          "data_type": "NUMBER",
+          "nullable": true
+        },
+        {
+          "name": "QTD_ACT",
+          "data_type": "NUMBER",
+          "nullable": true
+        },
+        {
+          "name": "DATE",
+          "data_type": "DATE",
+          "nullable": true
+        }
+      ]
+    },
+    "REVENUE_DATA": {
+      "columns": [
+        {
+          "name": "PROJECT_SEGMENT",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "MAIN_PROJECT",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "UNIT_CODE1",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "PROPERTY_CODE",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "ZONE",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "STATUS",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "PROPERTY_NAME",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "UNIT_CODE",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "STATUS_DESC",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "TOT_SALE_WITH_FAIR_JDA",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "REV_",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "DUENOT_DUE",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "REV_OVERVIEW",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "IOP_SENT_DATE",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "CP_POSS_DATE",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "IOP_PRINT_DATE",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "COLLECTIBLE_STATUS",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "REVENUE_STATUS",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "COL_30_DAYS",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "COL_3160_DAYS",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "COL_6190_DAYS",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "COL_91180_DAYS",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "COL_181365_DAYS",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "COL_365_DAYS",
+          "data_type": "VARCHAR2",
+          "nullable": true
+        },
+        {
+          "name": "TOTAL_REVENUE",
+          "data_type": "NUMBER",
+          "nullable": true
+        },
+        {
+          "name": "AMOUNT_PAID",
+          "data_type": "NUMBER",
+          "nullable": true
+        },
+        {
+          "name": "DAYS",
+          "data_type": "NUMBER",
+          "nullable": true
+        },
+        {
+          "name": "REVENUE_DATE",
+          "data_type": "DATE",
+          "nullable": true
+        },
+        {
+          "name": "OVERDUEDUE_DATE",
+          "data_type": "DATE",
+          "nullable": true
+        }
+      ]
+    }
+  }
+}
