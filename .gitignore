@@ -1,0 +1,12 @@
+venv
+Documents
+logs
+charts
+*.log
+.env
+_*
+__*
+__pycache__
+*.pyc
+DEPLOYMENT.md
+ap-hyderabad-1
