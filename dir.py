@@ -1,7 +1,7 @@
 import os
 
 # Names to ignore (must be strings)
-IGNORE_NAMES = ["Documents", "__pycache__", "venv", ".git"]
+IGNORE_NAMES = ["Documents", "__pycache__", "venv", ".git", "charts", "logs"]
 
 
 def explain_directory(path, indent=""):
